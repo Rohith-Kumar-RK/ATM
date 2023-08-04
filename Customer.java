@@ -84,7 +84,7 @@ class ATM
                     if(sum>0.0)
                     {
                         int number;
-                        Bank []c1=new Bank[10];
+                        ATM []c1=new ATM[10];
                         System.out.println("Enter number:");
                         Scanner st=new Scanner(System.in);
                         number=st.nextInt();
@@ -98,7 +98,7 @@ class ATM
                             {
                                 if(j==number)
                                 {
-                                    c1[j]=new Bank();
+                                    c1[j]=new ATM();
                                     c1[j].sum=bal;
                                 }
                             }
@@ -160,7 +160,7 @@ class Customer
 {
     public static void main(String args[])
     {
-        Customerdummy g=new Customerdummy();
+        Customers g=new Customes();
         g.method();
     }
 }
